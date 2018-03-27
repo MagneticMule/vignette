@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Vignette from "./Components/Vignette";
+import Vignette from "./Components/Vignette.jsx";
 
 class App extends Component {
   constructor() {
