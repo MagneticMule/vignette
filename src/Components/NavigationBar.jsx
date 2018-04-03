@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class NavigationBar extends Component {
   render() {
     return (
-      <div id="navigation-bar-top" className="navigation-top">
-        Picture
+      <div id="navigationBar" className="navigation-left">
+        Navigation Top
       </div>
     );
   }
