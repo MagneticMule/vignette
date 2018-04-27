@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Title from "./Title";
 import Picture from "./Picture";
-import SoundRecorder from "./SoundRecorder";
+import MediaWidget from "./MediaWidget";
 class Vignette extends Component {
   constructor(props) {
     super(props);
@@ -12,7 +12,7 @@ class Vignette extends Component {
       <div className="vignette">
         <Title />
         <Picture />
-        <SoundRecorder />
+        <MediaWidget />
       </div>
     );
   }
