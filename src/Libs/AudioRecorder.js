@@ -11,7 +11,6 @@ const audioConstraints = {
 
 export class AudioRecorder {
   constructor() {
-    mediaRecorder.onstop = this.onStop();
   }
 
   successCallBack = audioStream => {

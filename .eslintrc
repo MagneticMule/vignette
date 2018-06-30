@@ -12,8 +12,8 @@
   "env": {
     "browser": true,
     "node": true,
-    "jquery": false
-    // "react": true
+    "jquery": false,
+    "react": true
   },
   "rules": {
     "no-unused-vars": [
